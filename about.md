@@ -3,9 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+<img class="center" src="/assets/images/kmf.jpg" />
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+K. Michael Fox is a composer based out of Troy, New York. He is currently seeking a Ph.D. from Rensselaer Polytechnic Institute, where he also received a Master of Fine Arts in Electronic Arts. Previously, he obtained a Bachelor of Arts in Music from Eastern Washington University, studying under Dr. Jonathan Middleton, Don Goodwin, and Ben Robertson.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Currently, Fox is researching modes and ontologies of interactivity within the composition and performance of music.

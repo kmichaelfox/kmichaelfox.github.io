@@ -1,0 +1,16 @@
+# Site navigation
+
+- title: Bio
+  url: /about/index.html
+
+- title: Works
+  url: /works/index.html
+
+- title: Sound
+  url: http://soundcloud.com/kmichaelfox
+
+- title: Video
+  url: http://www.vimeo.com/kmichaelfox
+
+- title: Code
+  url: http://www.github.com/kmichaelfox
