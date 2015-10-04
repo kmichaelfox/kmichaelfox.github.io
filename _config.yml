@@ -12,3 +12,5 @@ github_username:  kmichaelfox
 # Build settings
 permalink: /:categories/:title
 markdown: kramdown
+
+safe: true
