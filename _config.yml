@@ -14,5 +14,6 @@ permalink: /:categories/:title
 markdown: kramdown
 
 safe: true
-google:
-  analytics: UA683646611
+owner:
+  google:
+    analytics: UA683646611
