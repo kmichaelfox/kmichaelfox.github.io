@@ -1,10 +1,10 @@
 # Site navigation
 
 - title: Bio
-  url: /about/index.html
+  url: /bio/
 
 - title: Works
-  url: /works/index.html
+  url: /works/
 
 - title: Sound
   url: http://soundcloud.com/kmichaelfox
