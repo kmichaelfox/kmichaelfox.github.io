@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   He is currently completing a Ph.D. at Rensselaer Polytechnic Institute.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kmichaelfox.github.io" # the base hostname & protocol for your site
+#url: "" # url for local development
 twitter_username: kmichaelfox
 github_username:  kmichaelfox
 
