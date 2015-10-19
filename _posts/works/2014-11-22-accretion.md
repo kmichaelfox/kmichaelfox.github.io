@@ -18,12 +18,12 @@ November 2014, premiered at the [Curtis R. Priem Experimental Media and Performi
 
 ###Production and Exhibition Stills:
 
-<img class="center" src="assets/images/accretion_1.jpg">
+<img class="center" src="/assets/images/accretion_1.jpg">
 
-<img class="center" src="assets/images/accretion_2.jpg">
+<img class="center" src="/assets/images/accretion_2.jpg">
 
-<img class="center" src="assets/images/accretion_3.jpg">
+<img class="center" src="/assets/images/accretion_3.jpg">
 
-<img class="center" src="assets/images/accretion_4.jpg">
+<img class="center" src="/assets/images/accretion_4.jpg">
 
-<img class="center" src="assets/images/accretion_5.jpg">
+<img class="center" src="/assets/images/accretion_5.jpg">
