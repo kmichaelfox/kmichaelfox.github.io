@@ -10,7 +10,7 @@ tags: [performance, movement, openFrameworks, supercollider]
 
 *Collaboration with [Jeremy Stewart](http://blindelephants.com)*
 
-__Field Cuts: Encounter 6__ is the most recent piece in this performance series which focuses on physical and mental interruption of the performer through electrical muscle/nerve stimulation. This nearly-40-minute piece features three performers moving through cyclical choreography while being interrupted by electrical impulses and modifying their performances in response to these impulses.
+_Field Cuts: Encounter 6_ is the most recent piece in this performance series which focuses on physical and mental interruption of the performer through electrical muscle/nerve stimulation. This nearly-40-minute piece features three performers moving through cyclical choreography while being interrupted by electrical impulses and modifying their performances in response to these impulses.
 
 The computer generated score (programmed in openFrameworks) assigns virtual connections between performers, where one performer's movement causes impulses to be sent to another performer's body.
 
