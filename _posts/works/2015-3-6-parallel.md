@@ -14,9 +14,9 @@ _Parallel_ is a music installation which represents the synthesis of MFA thesis 
 
 ### Exhibitions and Press:
 
-March 2015, exhibited at the [Curtis R. Priem Experimental Media and Performing Arts Center](http://empac.rpi.edu/events/2015/spring/parallel), Troy, NY, US.
-
 May 2015, featured on [Killscreen Daily](http://killscreendaily.com/articles/how-algorithm-created-music-out-peoples-unrehearsed-interactions/).
+
+March 2015, exhibited at the [Curtis R. Priem Experimental Media and Performing Arts Center](http://empac.rpi.edu/events/2015/spring/parallel), Troy, NY, US.
 
 ### Production and Exhibition Stills:
 
