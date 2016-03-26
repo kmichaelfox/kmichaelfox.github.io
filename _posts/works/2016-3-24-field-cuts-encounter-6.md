@@ -8,7 +8,7 @@ tags: [performance, movement, openFrameworks, supercollider]
 
 <iframe class="center" src="https://player.vimeo.com/video/159868244" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-*Collaboration with [Jeremy Stewart](http://blindelephants.com)*
+*Collaboration with [Jeremy Stewart](http://blindelephants.tumblr.com)*
 
 _Field Cuts: Encounter 6_ is the most recent piece in this performance series which focuses on physical and mental interruption of the performer through electrical muscle/nerve stimulation. This nearly-40-minute piece features three performers moving through cyclical choreography while being interrupted by electrical impulses and modifying their performances in response to these impulses.
 
