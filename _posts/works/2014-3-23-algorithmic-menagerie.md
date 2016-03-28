@@ -16,9 +16,11 @@ _Algorithmic Menagerie_ is a continuation of and the MFA thesis work of Raven Kw
 
 September 2015, exhibited at Dark Matter, A01 Banpo International Art Zone, Xi'An, China.
 
+July 2015, featured on [Vice China](http://www.vice.cn/read/what-happens-when-artists-think-like-scientists-in-Chengdu-A4-art-centre-2).
+
 June 2015, exhibited at [Absolute Infinite Game, A4 Contemporary Arts Center](http://art.ifeng.com/2015/0618/1369364.shtml), Chengdu, China. 
 
-August 2014, featured on [The Creators Project](thecreatorsproject.vice.com/blog/code-driven-creatures-occupy-this-algorithmic-menagerie).
+August 2014, featured on [The Creators Project](http://thecreatorsproject.vice.com/blog/code-driven-creatures-occupy-this-algorithmic-menagerie).
 
 March 2014, exhibited at [Curtis R. Priem Experimental Media and Performing Arts Center](http://empac.rpi.edu/events/2014/spring/algorithmic-menagerie), Troy, NY, US. 
 
