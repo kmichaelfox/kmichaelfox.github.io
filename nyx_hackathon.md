@@ -14,6 +14,6 @@ Download the SuperCollider executables for
 
 * Windows users should use _installer_ which installs the correct 32-bit or 64-bit version for your system
 
-** Linux users should follow instructions found in readme.txt
+* Linux users should follow instructions found in readme.txt
 
 Download the necessary source files [Here](https://www.dropbox.com/sh/qwr9zkdv6gmz7bf/AADcNmoAYqMmbB-brWJ35waEa?dl=1)
