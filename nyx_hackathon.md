@@ -21,5 +21,6 @@ Download the necessary source files [Here](https://www.dropbox.com/sh/qwr9zkdv6g
 
 References:
 
+* [SuperCollider Language Demo](https://github.com/kmichaelfox/SC_Demo)
 * [SuperCollider Website](http://supercollider.github.io/)
 * [SuperCollider-Unity Basics](https://www.youtube.com/watch?v=YFWAuX5vWoU)
