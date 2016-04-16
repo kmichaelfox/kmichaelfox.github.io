@@ -17,3 +17,9 @@ Download the SuperCollider executables for
 * Linux users should follow instructions found in readme.txt
 
 Download the necessary source files [Here](https://www.dropbox.com/sh/qwr9zkdv6gmz7bf/AADcNmoAYqMmbB-brWJ35waEa?dl=1)
+
+
+References:
+
+* [SuperCollider Website](http://supercollider.github.io/)
+* [SuperCollider-Unity Basics](https://www.youtube.com/watch?v=YFWAuX5vWoU)
