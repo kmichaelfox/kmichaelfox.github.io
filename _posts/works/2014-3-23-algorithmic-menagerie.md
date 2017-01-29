@@ -14,6 +14,8 @@ _Algorithmic Menagerie_ is a continuation of and the MFA thesis work of Raven Kw
 
 ### Exhibitions and Press:
 
+December 2016, exhibited at the [International Creative Cities Design Innovation Forum, "The Driving Forces for Design & Innovation,"](http://manamana.net/activity/detail?sid=1425&id=20) 800 Show, Jingan, Shanghai, China.
+
 September 2015, exhibited at Dark Matter, A01 Banpo International Art Zone, Xi'An, China.
 
 July 2015, featured on [Vice China](http://www.vice.cn/read/what-happens-when-artists-think-like-scientists-in-Chengdu-A4-art-centre-2).
