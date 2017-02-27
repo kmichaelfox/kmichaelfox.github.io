@@ -10,10 +10,9 @@ jquery: true
 
 <script type="text/javascript">
 $(document).ready(function textAreaLoad() {
-var url = window.location.pathname;
 var textbox = document.createElement("textarea");
 textbox.value = "";
-textbox.value += (url ? url.split('?')[1] : window.location.search.slice(1));
+textbox.value += (window.location.search.slice(1));
 document.getElementById("content-stream").appendChild(textbox);
 });
 </script>
