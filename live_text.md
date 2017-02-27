@@ -3,6 +3,7 @@ layout: page
 title: Live Text
 permalink: /live_text/
 ---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <div id="content-stream"></div>
 
