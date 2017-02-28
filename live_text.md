@@ -12,10 +12,10 @@ jquery: true
 'use strict';
 document.session_status = null;
 function initSession(){
-  $.get( "https://api.github.com/users/kmichaelfox/gists, (data) => {for (let i in data){ console.log(data[i]);}});
+  $.get( "https://api.github.com/users/kmichaelfox/gists", (data) => {for (let i in data){ console.log(data[i]);}});
 };
 function getSessionStatus() {
-  $.get( "https://api.github.com/repos/kmichaelfox/kmichaelfox.github.io/commits, (data) => {console.log(data)});
+  $.get( "https://api.github.com/repos/kmichaelfox/kmichaelfox.github.io/commits", (data) => {console.log(data)});
 };
 
 $(document).ready(function textAreaLoad() {
