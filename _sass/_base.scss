@@ -187,6 +187,30 @@ pre {
     }
 }
 
+/**
+ * Live Text Content Stream
+ */
+#content-stream, #content-stream-textarea {
+  margin: 0;
+  padding: 0;
+  height: 75vh;
+  width: 100%;
+  resize: none;
+}
+
+#content-stream-textarea {
+  outline: none;
+}
+
+#content-stream-info {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-style: italic;
+  font-size: x-small;
+  font-color: grey;
+  text-align: right;
+}
 
 
 /**
