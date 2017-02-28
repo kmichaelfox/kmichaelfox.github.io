@@ -29,17 +29,27 @@ function initSession(){
     for (let i in data){ 
       let gist = data[i];
       if (gist.files && gist.files[window.live_text_session_name]) {
-        window.session_status = gist["id"];
-        console.log('found the session! located at id: {0}'.format(window.session_status));
+        window.session_status = {id:gist["id"], updated_at:gist["updated_at"]};
+        console.log('found the session! located at id: {0}'.format(window.session_status.id));
+        setInterval(function(){
+          updateSession(); // this will run after every 5 seconds
+        }, 5000);
       } else if (window.session_status === null) {
-         document.getElementById("content-stream-textarea").value = 
-         'There is no known session for this path: \"{0}\"'.format(window.live_text_session_name)
+        document.getElementById("content-stream-textarea").value = 
+        'No session was found by the name: \"{0}\"'.format(window.live_text_session_name)
       };
     }
   });
 };
-function getSessionStatus() {
-  $.get( "https://api.github.com/repos/kmichaelfox/kmichaelfox.github.io/commits", (data) => {console.log(data)});
+function updateSession() {
+  $.get( "https://api.github.com/gists/{0}".format(window.session_status.id), (data) => {
+    if (data["updated_at"] && data["updated_at"] != window.session_status.updated_at) {
+      if (data["files"] && data["files"]["content"]) {
+        document.getElementById("content-stream-textarea").value = data["files"]["content"];
+        window.session_status.updated_at = data["updated_at"];
+      }
+    }
+  });
 };
 
 $(document).ready(function textAreaLoad() {
@@ -50,8 +60,5 @@ $(document).ready(function textAreaLoad() {
   textbox.value += window.live_text_session_name;
   document.getElementById("content-stream").appendChild(textbox);
   initSession();
-  //setInterval(function(){
-  //    getSessionStatus(); // this will run after every 5 seconds
-  //}, 5000);
 });
 </script>
