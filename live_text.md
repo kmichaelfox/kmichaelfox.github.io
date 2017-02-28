@@ -35,6 +35,7 @@ function initSession(){
           console.log('running callback');
           updateSession(); // this will run after every 5 seconds
         }, 5000);
+        document.getElementById("conent-stream-textarea").value = 'Session was found. Initializing connection...';
       } else if (window.session_status === null) {
         document.getElementById("content-stream-textarea").value = 
         'No session was found by the name: \"{0}\"'.format(window.live_text_session_name)
