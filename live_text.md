@@ -28,14 +28,14 @@ function initSession(){
   $.get( "https://api.github.com/users/kmichaelfox/gists", (data) => {
     for (let i in data){ 
       let gist = data[i];
-      if (gist.files && gist.files["test_session"]) {
+      if (gist.files && gist.files[document.live_text_session_name]) {
         document.session_status = gist["id"];
-        console.log('found the session! located at id:{0}'.format(document.session_status));
+        console.log('found the session! located at id: {0}'.format(document.session_status));
       }
     }
   });
   
-  if (document.session_status == null) {
+  if (document.session_status === null) {
     document.getElementById("content-stream-textarea").value = 
       'There is no known session for this path: \"{0}\"'.format(document.live_text_session_name)
   };
