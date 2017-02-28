@@ -32,6 +32,7 @@ function initSession(){
         window.session_status = {id:gist["id"], updated_at:gist["updated_at"]};
         console.log('found the session! located at id: {0}'.format(window.session_status.id));
         setInterval(function(){
+          console.log('running callback');
           updateSession(); // this will run after every 5 seconds
         }, 5000);
       } else if (window.session_status === null) {
