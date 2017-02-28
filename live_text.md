@@ -49,7 +49,7 @@ function updateSession() {
   $.get( "https://api.github.com/gists/{0}".format(window.session_status.id), (data) => {
     if (data["updated_at"] && data["updated_at"] != window.session_status.updated_at) {
       if (data["files"] && data["files"][window.live_text_session_name]["content"]) {
-        document.getElementById("content-stream-textarea").value = data["files"]["content"];
+        document.getElementById("content-stream-textarea").value = data["files"][window.live_text_session_name]["content"];
         window.session_status.updated_at = data["updated_at"];
       }
     }
