@@ -10,7 +10,20 @@ jquery: true
 
 <script type="text/javascript">
 'use strict';
+
 document.session_status = null;
+
+String.prototype.format = function()
+{
+   var content = this;
+   for (var i=0; i < arguments.length; i++)
+   {
+        var replacement = '{' + i + '}';
+        content = content.replace(replacement, arguments[i]);  
+   }
+   return content;
+};
+
 function initSession(){
   $.get( "https://api.github.com/users/kmichaelfox/gists", (data) => {
     for (let i in data){ 
