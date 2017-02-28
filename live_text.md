@@ -30,15 +30,14 @@ function initSession(){
       let gist = data[i];
       if (gist.files && gist.files["test_session"]) {
         document.session_status = gist.id;
-        console.log(String.format('found the session! located at id:{0}', document.session_status));
+        console.log('found the session! located at id:{0}'.format(document.session_status));
       }
     }
   });
   
   if (document.session_status == null) {
-    document.getElementById("content-stream-textarea").value = String.format(
-      "There is no known session for this path: \"{0}\"", document.live_text_session_name
-    );
+    document.getElementById("content-stream-textarea").value = 
+      'There is no known session for this path: \"{0}\"'.format(document.live_text_session_name)
   };
 };
 function getSessionStatus() {
