@@ -29,7 +29,7 @@ function initSession(){
     for (let i in data){ 
       let gist = data[i];
       if (gist.files && gist.files["test_session"]) {
-        document.session_status = gist.id;
+        document.session_status = gist["id"];
         console.log('found the session! located at id:{0}'.format(document.session_status));
       }
     }
