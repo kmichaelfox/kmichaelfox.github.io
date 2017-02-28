@@ -43,6 +43,8 @@ function initSession(){
   });
 };
 function updateSession() {
+  console.log('outside of callback');
+  console.log('https://api.github.com/gists/{0}'.format(window.session_status.id));
   $.get( "https://api.github.com/gists/{0}".format(window.session_status.id), (data) => {
     if (data["updated_at"] && data["updated_at"] != window.session_status.updated_at) {
       if (data["files"] && data["files"]["content"]) {
