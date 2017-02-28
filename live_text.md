@@ -29,7 +29,7 @@ function initSession(){
     for (let i in data){ 
       let gist = data[i];
       if (gist.files && gist.files[window.live_text_session_name]) {
-        window.session_status = {id:gist["id"], updated_at:gist["updated_at"]};
+        window.session_status = {id:gist["id"], updated_at:null};
         console.log('found the session! located at id: {0}'.format(window.session_status.id));
         setInterval(function(){
           console.log('running callback');
