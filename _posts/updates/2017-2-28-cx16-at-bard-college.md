@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "_cx16_ performing a live coding set at Bard College"
+title: "cx16 performing a live coding set at Bard College"
 date: 2017-2-20
 categories: updates
 ---
