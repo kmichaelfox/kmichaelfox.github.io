@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "cx16 at the 2017 Source Festival NYC"
+title: "cx16 performing at the 2017 Source Festival NYC"
 date: 2017-5-20
 categories: updates
 ---
